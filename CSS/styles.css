@@ -47,8 +47,13 @@ body{
 
 
 .list-nav-link:hover,
-.list-nav-link:focus{
+.list-nav-link:focus,
+.list-nav-link:active{
     color:var(--color-light-blue)
+}
+
+.current{
+    color: var(--color-light-blue);
 }
 
 .list-contact {
